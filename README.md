@@ -32,7 +32,7 @@ all authentication is done with firebase, even if the user forgets the password 
 | register.html     |   REGISTER |
 | forgot-password.html      |    Forgot Password |
 | app.js      | Authentication / Database    |
-| add.js     |  Database  |
+| add-safra.js    |  Database  |
 |authentication.js | Authentication |
 
 
@@ -40,11 +40,15 @@ After login, the user is directed to the main dashboard:
 
 ![](https://i.ibb.co/gDxQB7F/site2.png) 
 
-
-
-| Function name | Description                    |
+| Files:      | Page: |
 | ------------- | ------------------------------ |
-| `help()`      | Display the help window.       |
-| `destroy()`   | **Destroy your computer!**     |
+| receitaVenda.html, receitaOutro.html  | Add Recipe |
+| addReceita.js, addReceitaOutra.js | Add Recipe |
+|  adubo.js, defensivo.js, maoObra.js, outro.js      |   Add Expense |
+| Adubacao.html, defensivos.html, maoObra.html ,outros.html      |    Add Expense |
+| edit-delete.html, edit-maduros.html , edit-mudas.html , edit-pilados.html     | Edit Crop |
+| edit.js, editMaduro.js, editPilado.js     |  Edit Crop   |
+| dashboard.js , initial-page.html | Dashboard |
 
+On this page he can track all the KPI's of his coffee crop, and in the sidebar he can add sales and expenses, as well as edit information on the coffee crop, such as quantity of plants, etc.
 
