@@ -52,3 +52,7 @@ After login, the user is directed to the main dashboard:
 
 On this page he can track all the KPI's of his coffee crop, and in the sidebar he can add sales and expenses, as well as edit information on the coffee crop, such as quantity of plants, etc.
 
+
+
+To test the project: https://crysthianzaar.github.io/Safra-Code
+
