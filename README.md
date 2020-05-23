@@ -10,11 +10,36 @@ I grew up in Fundão - ES, and the main economic activity in the municipality is
 ![](https://icon-icons.com/icons2/2108/PNG/48/javascript_icon_130900.png) ![](https://icon-icons.com/icons2/2248/PNG/48/bootstrap_icon_135870.png)  ![](https://icon-icons.com/icons2/691/PNG/48/google_firebase_icon-icons.com_61474.png)  ![](https://icon-icons.com/icons2/512/PNG/48/html5-01_icon-icons.com_50875.png)  
 ##### Javascript | BootStrap | Firebase | CSS | HTML
 
-| Item      | Value |
-| --------- | -----:|
-| Computer  | $1600 |
-| Phone     |   $12 |
-| Pipe      |    $1 |
+
+### Functionality:
+
+The user registers and logs in to access the portal, in the portal he inserts the data and in the main dashboard these data are updated automatically. each user has his own dashboard and data.
+
+Obs:. The site was developed in Portuguese, as it tends to be used by users who speak only Portuguese
+
+### The WebSite:
+On the site, you register and then login and have access to the portal.
+all authentication is done with firebase, even if the user forgets the password he receives an email to change.
+
+![](https://i.ibb.co/sFYF9cH/site1.png)  
+
+
+
+| Files:      | Page: |
+| ------------- | ------------------------------ |
+| index.html  | LOGIN |
+| register.html     |   REGISTER |
+| forgot-password.html      |    Forgot Password |
+| app.js      | Authentication / Database    |
+| add.js     |  Database  |
+|authentication.js | Authentication |
+
+
+After login, the user is directed to the main dashboard:
+
+![](https://i.ibb.co/gDxQB7F/site2.png) 
+
+
 
 | Function name | Description                    |
 | ------------- | ------------------------------ |
