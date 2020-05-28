@@ -14,7 +14,7 @@ A principal atividade econômica do município no qual cresci é a cafeicultura,
 
 ### Funcionalidade:
 
-O usuário registra e efetua login para acessar o portal, no portal ele insere os dados de custos,receitas,etc... e no painel principal esses dados são atualizados automaticamente. cada usuário tem seu próprio painel e dados.
+O usuário se registra ( obs. a senha tem que ter mais do que 6 caracteres) e efetua login para acessar o portal, no portal ele insere os dados de custos,receitas,etc... e no painel principal esses dados são atualizados automaticamente. cada usuário tem seu próprio painel e dados.
 
 Obs :. O site foi desenvolvido em português, pois costuma ser usado por usuários que falam apenas português
 
