@@ -1,26 +1,26 @@
 ![](https://i.imgur.com/jjJ0t5p.png)
 
-"One of the proposals of the final CS50 project is to create something that impacts your community, and it was with this premise that the SafraCode idea came up"
+"Uma das propostas do projeto final do CS50 é criar algo que afeta sua comunidade e foi com essa premissa que surgiu a idéia do SafraCode"
 
-### Proposal:
+### Proposta:
 
 
-I'm from Brazil and I grew up in Fundão - ES, and the main economic activity in the municipality is coffee growing, so the proposal with SafraCode was to create a web application MPV to assist in free financial control of coffee crops, aimed at small producers, using a simple layout and with essential information for financial control of the crop.
+A principal atividade econômica do município no qual cresci é a cafeicultura, então a proposta do SafraCode foi criar um aplicativo Web gratuito para auxiliar no controle financeiro e de safra das lavouras de café, visando pequenos produtores, utilizando um layout simples e com informações essenciais para o controle financeiro da safra.
 
-### Technologies Used:
+### Tecnologias Usadas:
 ![](https://icon-icons.com/icons2/2108/PNG/48/javascript_icon_130900.png) ![](https://icon-icons.com/icons2/2248/PNG/48/bootstrap_icon_135870.png)  ![](https://icon-icons.com/icons2/691/PNG/48/google_firebase_icon-icons.com_61474.png)  ![](https://icon-icons.com/icons2/512/PNG/48/html5-01_icon-icons.com_50875.png)  
 ##### Javascript | BootStrap | Firebase | CSS | HTML
 
 
-### Functionality:
+### Funcionalidade:
 
-The user registers and logs in to access the portal, in the portal he inserts the data and in the main dashboard these data are updated automatically. each user has his own dashboard and data.
+O usuário se registra ( obs. a senha tem que ter mais do que 6 caracteres) e efetua login para acessar o portal, no portal ele insere os dados de custos,receitas,etc... e no painel principal esses dados são atualizados automaticamente. cada usuário tem seu próprio painel e dados.
 
-Obs:. The site was developed in Portuguese, as it tends to be used by users who speak only Portuguese
+Obs :. O site foi desenvolvido em português, pois costuma ser usado por usuários que falam apenas português
 
-### The WebSite:
-On the site, you register and then login and have access to the portal.
-all authentication is done with firebase, even if the user forgets the password he receives an email to change.
+### O WebSite:
+No site, você se registra, faz login e tem acesso ao portal.
+toda a autenticação é feita com firebase, mesmo que o usuário esqueça a senha que ele pode solicitar receber um email para altera-la.
 
 ![](https://i.ibb.co/sFYF9cH/site1.png)  
 
@@ -36,7 +36,7 @@ all authentication is done with firebase, even if the user forgets the password 
 |authentication.js | Authentication |
 
 
-After login, the user is directed to the main dashboard:
+Após o login, o usuário é direcionado para o painel principal:
 
 ![](https://i.ibb.co/gDxQB7F/site2.png) 
 
@@ -50,5 +50,8 @@ After login, the user is directed to the main dashboard:
 | edit.js, editMaduro.js, editPilado.js     |  Edit Crop   |
 | dashboard.js , initial-page.html | Dashboard |
 
-On this page he can track all the KPI's of his coffee crop, and in the sidebar he can add sales and expenses, as well as edit information on the coffee crop, such as quantity of plants, etc.
+Nesta página, ele pode rastrear todos os KPIs de sua safra de café e, na barra lateral, pode adicionar vendas e despesas, além de editar informações sobre a safra de café, como quantidade de plantas, etc.
+
+
+Para testar o projeto: https://crysthianzaar.github.io/Safra-Code
 
