@@ -15,9 +15,8 @@ button.addEventListener('click', e => {
     despesaDefensivo: 0,
     despesaMaoObra: 0,
     qtdMaduro:0,
-    qtdMudas: 0,
     qtdPilado:0,
     valor:0
   })
-  alert("Conta cadastrada!");
+  alert("Informações Resetadas");
 });
